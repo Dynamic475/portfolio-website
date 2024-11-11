@@ -1,0 +1,269 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.back-color {
+
+    background-color: black;
+}
+
+main {
+
+    padding: 0px 70px 0px 70px;
+}
+
+.curser {
+
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(251, 255, 0);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+        
+    }
+    
+    .curser2 {
+    
+        position: fixed;
+        width: 8px;
+        height: 8px;
+        background-color: rgb(255, 251, 0);
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        transition: .1s;
+    }
+
+
+    .btnbackmain {
+        padding: 15px 45px 15px 30px;
+        margin-bottom: 30px;
+        border: 1px solid rgb(60, 60, 60);
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        transition: 0.3s ease-in;
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        margin-top: 60px;
+    }
+
+    .btnbackmain:hover {
+    
+        border: 1px solid white;
+        column-gap: 15px;
+    }
+
+    .all-text {
+
+        color: white;
+        margin-top: 50px;
+        row-gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .all-text h2 {
+
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .all-text span {
+
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: rgb(132, 132, 132);
+    }
+
+
+    .box1 {
+
+        height: 500px;
+        width: 100%;
+        margin-top: 70px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 50px;
+        border: 1px solid rgb(62, 62, 62);
+    }
+
+    .box1 img {
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .image-header h2{
+
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: white;
+
+
+    }
+
+    .spanandp {
+
+      color: white;
+      margin-top: 60px;
+      row-gap: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .spanandp span {
+
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-top: 15px;
+    }
+
+    .spanandp p {
+
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-top: 10px;
+        color: rgb(132, 132, 132);
+    }
+
+
+    .two-box {
+
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .image-1 {
+
+        height: 350px;
+        width: calc(50% - 10px);
+        background-color: purple;
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    .image-1 img {
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .image-2 {
+
+        height: 350px;
+        width: calc(50% - 10px);
+        background-color: rgb(255, 84, 255);
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    .image-2 img {
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .lower-text {
+
+        color: white;
+        margin-top: 60px;
+    }
+
+    .lower-text span {
+
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-top: 15px;
+
+    }
+
+    .lower-text p {
+
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-top: 10px;
+        color: rgb(132, 132, 132);
+    }
+
+    
+.btn {
+   
+    margin-top: 30px;
+    
+ }
+
+    .btn button {
+
+    padding: 15px 30px 15px 30px;
+    font-size: 0.9rem;
+    background-color: black;
+    border: 1px solid #767676;
+    color: white;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+
+}
+
+.btn button:hover {
+
+        border: 1px solid yellowgreen;
+}
+
+    
+    footer {
+
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(26, 26, 26);
+        border-top: 1px solid rgba(255, 255, 255, 0.159);
+        color: white;
+    margin-top: 100px;
+    }
+    
+    .footer-text {
+    
+        display: flex;
+        column-gap: 30px;
+    }
+    
+    .footer-text h3 span {
+    
+        color: white;
+    }
+    
+    .footer-text h3 {
+    
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: rgb(91, 91, 91);
+    }

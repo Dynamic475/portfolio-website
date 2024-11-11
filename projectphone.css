@@ -1,0 +1,190 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.curser {
+
+    display: none;
+}
+
+.curser2 {
+
+    display: none;
+}
+
+
+main {
+
+    width: 100%;
+}
+
+
+
+.btnbackmain {
+    padding: 15px 40px 15px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(60, 60, 60);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.htext {
+
+    color: white;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 50px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.htext h3 {
+
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.htext p {
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(113, 113, 113);
+}
+
+
+.boxes {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+
+.innerbox1 {
+
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+
+.innerbox1 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.innerbox1 img:hover {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+}
+
+.textbox {
+
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 10px;
+
+}
+
+.textbox h3 {
+
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.textbox span {
+
+    font-size: 0.9rem;
+    color: rgb(113, 113, 113);
+    font-weight: 400;
+}
+
+.textbox button {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 2px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.textbox button:hover {
+
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+footer {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.159);
+    margin-top: 50px;
+}
+
+.footer-text {
+
+    display: block;
+    row-gap: 30px;
+    text-align: center;
+}
+
+.footer-text h3 span {
+
+    color: white;
+}
+
+.footer-text h3 {
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+}
