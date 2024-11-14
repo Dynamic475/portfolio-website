@@ -95,7 +95,7 @@ main {
 
         height: 500px;
         width: 100%;
-        background-color: red;
+        background-color: rgb(52, 52, 52);
         margin-top: 70px;
         border-radius: 10px;
         overflow: hidden;
@@ -159,7 +159,7 @@ main {
 
         height: 350px;
         width: calc(50% - 10px);
-        background-color: purple;
+        background-color: rgb(52, 52, 52);
         border-radius: 10px;
         overflow: hidden;
 
@@ -176,7 +176,7 @@ main {
 
         height: 350px;
         width: calc(50% - 10px);
-        background-color: rgb(255, 84, 255);
+        background-color: rgb(52, 52, 52);
         border-radius: 10px;
         overflow: hidden;
 
@@ -265,5 +265,5 @@ main {
     
         font-size: 1.2rem;
         font-weight: 500;
-        color: rgb(91, 91, 91);
+        color: rgb(124, 127, 130);
     }

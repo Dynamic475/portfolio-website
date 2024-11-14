@@ -97,6 +97,7 @@ main {
         width: 100%;
         margin-top: 70px;
         border-radius: 10px;
+        background-color: rgb(52, 52, 52);
         overflow: hidden;
         margin-bottom: 50px;
         border: 1px solid rgb(62, 62, 62);
@@ -159,7 +160,6 @@ main {
 
         height: 350px;
         width: calc(50% - 10px);
-        background-color: purple;
         border-radius: 10px;
         overflow: hidden;
 
@@ -176,7 +176,6 @@ main {
 
         height: 350px;
         width: calc(50% - 10px);
-        background-color: rgb(255, 84, 255);
         border-radius: 10px;
         overflow: hidden;
 
@@ -219,7 +218,7 @@ main {
     
  }
 
-    .btn button {
+.btn button {
 
     padding: 15px 30px 15px 30px;
     font-size: 0.9rem;
@@ -237,7 +236,7 @@ main {
 }
 
     
-    footer {
+footer {
 
         height: 80px;
         width: 100%;
@@ -247,23 +246,23 @@ main {
         background-color: rgb(26, 26, 26);
         border-top: 1px solid rgba(255, 255, 255, 0.159);
         color: white;
-    margin-top: 100px;
-    }
+        margin-top: 100px;
+}
     
-    .footer-text {
+.footer-text {
     
         display: flex;
         column-gap: 30px;
-    }
+}
     
-    .footer-text h3 span {
+.footer-text h3 span {
     
         color: white;
-    }
+}
     
-    .footer-text h3 {
+.footer-text h3 {
     
         font-size: 1.2rem;
         font-weight: 500;
-        color: rgb(91, 91, 91);
-    }
+        color: rgb(124, 127, 130);
+}

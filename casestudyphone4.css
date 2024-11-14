@@ -64,7 +64,7 @@ main {
 
     height: 250px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(52, 52, 52);
     margin-top: 50px;
     border-radius: 10px;
     overflow: hidden;
@@ -128,7 +128,7 @@ main {
 
     height: 180px;
     width: calc(50% - 5px);
-    background-color: purple;
+    background-color: rgb(52, 52, 52);
     border-radius: 10px;
     overflow: hidden;
 
@@ -145,7 +145,7 @@ main {
 
     height: 180px;
     width: calc(50% - 5px);
-    background-color: rgb(255, 84, 255);
+    background-color: rgb(52, 52, 52);
     border-radius: 10px;
     overflow: hidden;
 
@@ -227,5 +227,5 @@ footer {
 
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(91, 91, 91);
+    color: rgb(124, 127, 130);
 }
