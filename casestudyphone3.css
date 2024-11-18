@@ -121,12 +121,13 @@ main {
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
+    flex-direction: column;
 }
 
 .image-1 {
 
-    height: 180px;
-    width: calc(50% - 5px);
+    height: 210px;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
 
@@ -141,8 +142,8 @@ main {
 
 .image-2 {
 
-    height: 180px;
-    width: calc(50% - 5px);
+    height: 210px;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
 
@@ -153,6 +154,24 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.image-5 {
+
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+}
+
+.image-5 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
 }
 
 .lower-text {
