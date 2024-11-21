@@ -2,7 +2,7 @@
 var typeWriterElement = document.getElementById('typewriter');
 
 // The TextArray: 
-var textArray = ["Logos.","Packagin.","websites."];
+var textArray = ["Logos.","Packaging.","Websites."];
 
 // You can also do this by transfering it through a data-attribute
 // var textArray = typeWriterElement.getAttribute('data-array');
